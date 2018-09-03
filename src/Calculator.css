@@ -1,0 +1,22 @@
+.calculator {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: space-between;
+  align-items: center;
+  border: black 2px solid;
+  border-radius: 20px;
+  width: 30%;
+  min-width: 500px;
+  padding: 40px;
+  background: #fff;
+}
+
+label {
+    text-transform: uppercase;    
+}
+
+input {
+  margin-left: 30px;
+  padding: 10px;
+}
